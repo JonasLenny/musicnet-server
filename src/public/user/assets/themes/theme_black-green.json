@@ -1,0 +1,11 @@
+{
+    "name": "black-green",
+    "palette": {
+        "primary": {
+            "main": "#212121"
+        },
+        "secondary": {
+            "main": "#17511b"
+        }
+    }
+}

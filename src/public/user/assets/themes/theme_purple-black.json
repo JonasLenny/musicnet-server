@@ -1,0 +1,11 @@
+{
+    "name": "purple-black",
+    "palette": {
+        "primary": {
+            "main": "#4a148c"
+        },
+        "secondary": {
+            "main": "#212121"
+        }
+    }
+}

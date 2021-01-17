@@ -1,0 +1,63 @@
+{
+  "name": "musicnet-server",
+  "version": "0.7.2",
+  "scripts": {
+    "postinstall": "node bin/postinstall.js",
+    "build:dev": "",
+    "build:prod": "",
+    "server:dev": "",
+    "start": "nodemon --exec babel-node src/app.js",
+    "clean": "rm -rf build && mkdir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasLenny/MusicNet_Server.git"
+  },
+  "keywords": [
+    "material-ui",
+    "webpack",
+    "youtube-player",
+    "spotify-player"
+  ],
+  "author": "Jonas Lenny Rook <Jonas.Rook@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonasLenny/MusicNet_Server/issues"
+  },
+  "homepage": "https://github.com/JonasLenny/MusicNet_Server#readme",
+  "dependencies": {
+    "@babel/node": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0",
+    "uuid": "^7.0.2",
+    "xhr": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^2.30.1",
+    "nodemon": "^1.19.4",
+    "style-loader": "^0.19.1",
+    "transfer-webpack-plugin": "^0.1.4",
+    "webpack": "^5.11.1",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-manifest-plugin": "^1.3.2",
+    "webpack-merge": "^4.2.2"
+  }
+}

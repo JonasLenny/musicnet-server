@@ -1,0 +1,20 @@
+{
+    "project": {
+        "title": "MusicNet Server",
+        "bundleName": "musicnet-server.bundle",
+        "mainFile": "src/app.js",
+        "server": {
+            "path": "localhost",
+            "port": "8080",
+            "api": "/api"
+        }
+    },
+    "development": {
+        "dev": {
+            "buildTarget": "/build/dev"
+        },
+        "prod": {
+            "buildTarget": "/build/prod"
+        }
+    }
+}
